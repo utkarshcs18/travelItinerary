@@ -1,17 +1,18 @@
+# ENV
 .env
 .env.*
 
-
+# DEPENDENCIES
 node_modules
 
-
+# FRONTEND
 client/dist
 client/.vite
 
-
+# BACKEND
 server/dist
 
-
+# LOGS
 logs
 *.log
 npm-debug.log*
@@ -20,12 +21,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-
+# BUILD / MISC
 dist
 dist-ssr
 *.local
 
-
+# EDITOR / OS
 .vscode/*
 !.vscode/extensions.json
 .idea
