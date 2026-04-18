@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+html,
+body {
+  height: 100%;
+}
+
+select {
+  color-scheme: light;
+}
+select option {
+  background-color: #ffffff;
+  color: #0f172a;
+}
